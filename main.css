@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.links {
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.links:hover {
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    max-width: 1440px;
+    max-height: 55px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    color: blue;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.log {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 8px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.log:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0px 0px  10px rgb(167, 167, 167);
+
+}
+
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    position: fixed;
+    overflow-y: scroll;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    max-width: 1440px;
+    max-height: 1080px;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    max-width: 220px;
+    overflow-y: scroll;
+}
+
+.main-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+.scroll-container {
+    display: block;
+    max-height: 900px;
+    min-height: 400px;
+    max-width: 1440px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.scroll-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 16px;
+    overflow-y: scroll;
+    
+}
+
+.scroll-page::-webkit-scrollbar {
+    display: none;
+}
+
+.title-page {
+    font-size: 18px;
+    background-color: rgb(241, 241, 255);
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-width: 1px;
+    border-color: blue;
+    padding: 10px 20px;
+    border-radius: 16px;
+    font-weight: 500;
+}
+
+.page-subtitle {
+    font-size: 16px;
+    background-color: rgb(246, 246, 246);
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-btn {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #fafafa;
+}
+
+.title-btn:hover {
+    background-color: blue;
+    color: white;
+    transition: 0.1s;
+    border-color: blue;
+}
+
+.title-btn:active {
+    background-color: rgb(175, 175, 255);
+    transition: 0.1s;
+}
+
+.home-screen {
+    font-size: 28px;
+    color: black;
+    font-weight: 800;
+    font-family: helvetica;
+}
+
+
+
+
+
+
